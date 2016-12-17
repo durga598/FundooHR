@@ -1,0 +1,48 @@
+    body{
+      background: #D8D1C7;
+    }
+    .md-padding{
+        background-color: rgba(247, 245, 241, 0);
+    }
+        .loginBox {
+color: rgba(59, 83, 114, 1);
+          font-family: AppleGothic;
+          font-size: 28px;
+          background-color: rgba(247, 245, 241, 0.85);
+            max-width: 300px;
+            max-height: 291px;
+            border-radius: 7px;
+            box-shadow: 2px 2px 5px #888;
+
+        }
+        md-input-container {
+    margin: 7px 0;
+}
+.md-button {
+    text-transform: none;
+}
+            md-content{
+                border-radius: 7px;
+            }
+            toolbar{
+                font-family: AppleGothic;
+                font-size: 20px;
+                color: rgba(59, 83, 114, 1);
+            }
+.logo img{
+    max-height: 106px;
+    max-width:97px;
+}
+.md-button.md-default-theme.md-raised, .md-button.md-raised {
+    border: solid;
+    border-radius: 5px;
+    color: rgba(59, 83, 114, 1);
+    background-color: rgba(247, 245, 241, 0.82);
+    font-size: 18px;
+}
+.errorShow{
+    font-size: 13px;
+}
+select, button, textarea, input {
+    font-size: 23px;
+}

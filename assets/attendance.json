@@ -1,0 +1,212 @@
+[{
+"1":{
+ "attendanceStatus" : "CompLeave",
+ "markedStatus" : "true",
+ "punchIn" : "",
+ "punchOut" : "",
+ "reason" : "Sunday"
+},
+ "2":{
+ "attendanceStatus" : "Present",
+ "markedStatus" : "true",
+ "punchIn" : "8:30 AM",
+ "punchOut" : "7:30 PM",
+ "reason" : ""
+},
+"3":{
+ "attendanceStatus" : "Present",
+ "markedStatus" : "true",
+ "punchIn" : "8:30 AM",
+ "punchOut" : "7:30 PM",
+ "reason" : ""
+},
+"4":{
+ "attendanceStatus" : "Present",
+ "markedStatus" : "true",
+ "punchIn" : "8:30 AM",
+ "punchOut" : "7:30 PM",
+ "reason" : ""
+},
+"5":{
+ "attendanceStatus" : "Present",
+ "markedStatus" : "true",
+ "punchIn" : "8:30 AM",
+ "punchOut" : "7:30 PM",
+ "reason" : ""
+},
+"6":{
+ "attendanceStatus" : "Present",
+ "markedStatus" : "true",
+ "punchIn" : "8:30 AM",
+ "punchOut" : "7:30 PM",
+ "reason" : ""
+},
+"7":{
+ "attendanceStatus" : "Present",
+ "markedStatus" : "true",
+ "punchIn" : "8:30 AM",
+ "punchOut" : "7:30 PM",
+ "reason" : ""
+},
+"8":{
+    "attendanceStatus" : "CompLeave",
+ "markedStatus" : "true",
+ "punchIn" : "",
+ "punchOut" : "",
+ "reason" : "Sunday"
+},
+"9":{
+ "attendanceStatus" : "Present",
+ "markedStatus" : "true",
+ "punchIn" : "8:30 AM",
+ "punchOut" : "7:30 PM",
+ "reason" : ""
+},
+"10":{
+ "attendanceStatus" : "Present",
+ "markedStatus" : "true",
+ "punchIn" : "8:30 AM",
+ "punchOut" : "7:30 PM",
+ "reason" : ""
+},
+"11":{
+ "attendanceStatus" : "Present",
+ "markedStatus" : "true",
+ "punchIn" : "8:30 AM",
+ "punchOut" : "7:30 PM",
+ "reason" : ""
+},
+"12":{
+ "attendanceStatus" : "Present",
+ "markedStatus" : "true",
+ "punchIn" : "8:30 AM",
+ "punchOut" : "7:30 PM",
+ "reason" : ""
+},
+"13":{
+ "attendanceStatus" : "Present",
+ "markedStatus" : "true",
+ "punchIn" : "8:30 AM",
+ "punchOut" : "7:30 PM",
+ "reason" : ""
+},
+"14":{
+ "attendanceStatus" : "Present",
+ "markedStatus" : "true",
+ "punchIn" : "8:30 AM",
+ "punchOut" : "7:30 PM",
+ "reason" : ""
+},
+"15":{
+ "attendanceStatus" : "CompLeave",
+ "markedStatus" : "true",
+ "punchIn" : "",
+ "punchOut" : "",
+ "reason" : "Sunday"
+},
+"16":{
+ "attendanceStatus" : "Present",
+ "markedStatus" : "true",
+ "punchIn" : "8:30 AM",
+ "punchOut" : "7:30 PM",
+ "reason" : ""
+},
+"17":{
+ "attendanceStatus" : "Present",
+ "markedStatus" : "true",
+ "punchIn" : "8:30 AM",
+ "punchOut" : "7:30 PM",
+ "reason" : ""
+},
+"18":{
+ "attendanceStatus" : "",
+ "markedStatus" : "false",
+ "punchIn" : "",
+ "punchOut" : "",
+ "reason" : ""
+},
+"19":{
+ "attendanceStatus" : "Present",
+ "markedStatus" : "true",
+ "punchIn" : "8:30 AM",
+ "punchOut" : "7:30 PM",
+ "reason" : ""
+},
+"20":{
+ "attendanceStatus" : "Present",
+ "markedStatus" : "true",
+ "punchIn" : "8:30 AM",
+ "punchOut" : "7:30 PM",
+ "reason" : ""
+},
+"21":{
+ "attendanceStatus" : "Present",
+ "markedStatus" : "true",
+ "punchIn" : "8:30 AM",
+ "punchOut" : "7:30 PM",
+ "reason" : ""
+},
+"22":{
+ "attendanceStatus" : "CompLeave",
+ "markedStatus" : "true",
+ "punchIn" : "",
+ "punchOut" : "",
+ "reason" : "Sunday"
+},
+"23":{
+ "attendanceStatus" : "Leave",
+ "markedStatus" : "true",
+ "punchIn" : "8:30 AM",
+ "punchOut" : "7:30 PM",
+ "reason" : ""
+},
+"24":{
+ "attendanceStatus" : "",
+ "markedStatus" : "false",
+ "punchIn" : "",
+ "punchOut" : "",
+ "reason" : ""
+},
+"25":{
+ "attendanceStatus" : "Present",
+ "markedStatus" : "true",
+ "punchIn" : "8:30 AM",
+ "punchOut" : "7:30 PM",
+ "reason" : ""
+},
+"26":{
+ "attendanceStatus" : "Present",
+ "markedStatus" : "true",
+ "punchIn" : "8:30 AM",
+ "punchOut" : "7:30 PM",
+ "reason" : ""
+},
+"27":{
+ "attendanceStatus" : "Present",
+ "markedStatus" : "true",
+ "punchIn" : "8:30 AM",
+ "punchOut" : "7:30 PM",
+ "reason" : ""
+},
+"28":{
+ "attendanceStatus" : "Present",
+ "markedStatus" : "true",
+ "punchIn" : "8:30 AM",
+ "punchOut" : "7:30 PM",
+ "reason" : ""
+},
+"29":{
+    "attendanceStatus" : "CompLeave",
+ "markedStatus" : "true",
+ "punchIn" : "",
+ "punchOut" : "",
+ "reason" : "Sunday"
+},
+"30":{
+ "attendanceStatus" : "Present",
+ "markedStatus" : "true",
+ "punchIn" : "8:30 AM",
+ "punchOut" : "7:30 PM",
+ "reason" : ""
+}
+}]

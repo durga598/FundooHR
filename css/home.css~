@@ -1,0 +1,121 @@
+.navbar-default .navbar-toggle {
+    float: right;
+}
+
+
+@media(min-width:760px){
+   .row{
+       margin-top:50px;
+   }
+   .row ul li{
+   margin-left:50px;
+   display: table-cell;
+}
+}
+@media(min-width:1200px){
+   .row ul li{
+   margin-left:140px;
+   display: table-cell;
+}
+}
+.sidebar {
+    text-align: center;
+    background: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(156, 205, 227, 0.99);
+    max-height: 222px;
+    max-width: 311px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05) inset, 0px 0px 8px rgba(82, 168, 236, 0.6);
+}
+
+.content {
+    background: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(156, 205, 227, 0.99);
+}
+
+.sidebar,
+.content {
+    min-height: 200px;
+}
+
+
+
+.date1 {
+    color: #6FB8D9;
+    font-family: LucidaGrande-Bold;
+    font-size: 18px;
+}
+
+
+
+.bottom-align-text {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    bottom: 35px;
+}
+
+.toc {
+    float: right;
+}
+
+.header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.blankHead {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 222px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-collapse {
+  background-color: rgba(216, 209, 199, 1);
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: rgba(59, 83, 114, 1);
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: rgba(59, 83, 114, 1);
+}
+.navbar-default .navbar-nav>.active>a  {
+  background-color: inherit;
+}
+.brand {
+  width: 128px;
+height: 28px;
+opacity: 100;
+text-align: left;
+color: #3B5372;
+font-family: Ionicons;
+line-height: 0px;
+font-size: 24px;
+letter-spacing: 0px;
+font-weight: bold;
+}
+.date {
+  width: 157px;
+height: 19px;
+opacity: 100;
+text-align: left;
+color: rgba(59, 83, 114, 1);
+font-family: AppleGothic;
+line-height: 0px;
+font-size: 16px;
+letter-spacing: 0px;
+}
+.title {
+  width: 94px;
+height: 18px;
+opacity: 100;
+text-align: left;
+color: #3B5372;
+font-family: LucidaGrande-Bold;
+line-height: 0px;
+font-size: 16px;
+letter-spacing: 0px;
+font-weight: bold;
+}

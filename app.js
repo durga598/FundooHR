@@ -1,4 +1,4 @@
-angular.module('MyApp', ['ngResource', 'ngMessages', 'ngAnimate', 'toastr', 'ui.router', 'satellizer', 'ngMaterial'])
+angular.module('MyApp', ['ngResource', 'ngMessages', 'ngAnimate', 'toastr', 'ui.router', 'satellizer', 'ngMaterial','ngMdIcons'])
   .config(function($stateProvider, $urlRouterProvider, $authProvider) {
 
     /**
@@ -39,7 +39,23 @@ angular.module('MyApp', ['ngResource', 'ngMessages', 'ngAnimate', 'toastr', 'ui.
       .state('home', {
         url: '/',
         templateUrl: 'partials/home.html',
-        // controller: 'LoginCtrl',
+        controller: 'homeCtrl',
+        resolve: {
+          loginRequired: loginRequired
+        }
+      })
+      .state('home.dashboard', {
+        url: 'dash',
+        templateUrl: 'partials/dashboard.html',
+        controller: 'homeCtrl',
+        resolve: {
+          loginRequired: loginRequired
+        }
+      })
+      .state('home.engineers', {
+        url: 'engineers',
+        templateUrl: 'partials/engineers.html',
+        controller: 'enggCtrl',
         resolve: {
           loginRequired: loginRequired
         }
@@ -52,11 +68,11 @@ angular.module('MyApp', ['ngResource', 'ngMessages', 'ngAnimate', 'toastr', 'ui.
       //     skipIfLoggedIn: skipIfLoggedIn
       //   }
       // })
-      // .state('logout', {
-      //   url: '/logout',
-      //   template: null,
-      //   controller: 'LogoutCtrl'
-      // })
+      .state('logout', {
+        url: '/logout',
+        template: null,
+        controller: 'LogoutCtrl'
+      })
       // .state('profile', {
       //   url: '/profile',
       //   templateUrl: 'partials/profile.html',

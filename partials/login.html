@@ -1,23 +1,24 @@
 <!-- Using Angular Material 6.1 + Jade Templates-->
 
-<div layout="column" layout-align="center center" layout-fill="layout-fill">
+<div class="loginDiv" layout="column" layout-align="center center" layout-fill="layout-fill">
     <div class="logo"><img ng-src="logo@2x.png"/></div>
         <div class="loginBox md-whiteframe-z1" layout="column">
 
-                <center><span class="toolbar">Login</span></center>
+                
 
-            <md-content class="md-padding" layout="column">
+            <md-content layout="column">
+                <center><span class="toolbar">Login</span></center>
                 <form name="Form" method="post" ng-submit="login()">
-                <md-input-container>
+                <md-input-container style="line-height:20px">
                     <label>Email</label>
-                    <input type="email" name="email" ng-model="user.username" ng-pattern="emailFormat" required/><br/>
+                    <input type="email" name="email" ng-model="user.emailId" ng-pattern="emailFormat" required/><br/>
                     <!--<span ng-show=" Form.username.$dirty &&  Form.username.$error.required">*  Required</span>
   <span ng-show=" Form.username.$dirty &&  Form.username.$error.pattern">Not an  E-mail</span>-->
-  <div ng-messages="Form.username.$error.pattern">
+  <!--<div ng-messages="Form.username.$error.pattern">
         <div ng-message="ng-pattern">Enter Valid email</div>
-      </div>
+      </div>-->
                 </md-input-container>
-                <md-input-container>
+                <md-input-container style="line-height:20px">
                     <label>Password</label>
                     <input type="password" ng-model="user.password" ng-pattern="passwordFormat" required/>
                 </md-input-container>

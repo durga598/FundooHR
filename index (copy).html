@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>FundooHR</title>
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" media="screen">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.css"
+    />
+    <style>
+        body {
+            background: white !important;
+        }
+        
+        @font-face {
+            font-family: 'AppleGothic';
+            src: url('assets/AppleGothic.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        table {
+            font-family: 'AppleGothic';
+            font-size: 24px;
+            color: rgba(111, 184, 217, 1);
+            text-align: right;
+            width: 623px;
+            height: 430px;
+            border-radius: 8px !important;
+            opacity: 100;
+            border: solid 3px rgba(180, 221, 239, 0.99) !important;
+            box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+            border-collapse: separate;
+        }
+        
+        table td,
+        table th {
+            opacity: 100;
+            border: solid 1px #D8D1C7;
+        }
+        
+        .header {
+            float: right;
+        }
+        
+        .calendar {
+            width: 623px;
+            height: 430px;
+        }
+        
+        .dayNum {
+            width: 25px; 
+height: 29px; 
+opacity: 100; 
+text-align: left; 
+color: #6FB8D9; 
+font-family: AppleGothic; 
+line-height: 0px; 
+font-size: 24px; 
+letter-spacing: 0px;
+            padding-right: 30%;
+        }
+        .dateShow{
+            font-size: 18px;
+            color: #3B5372; 
+        }
+        .status span{
+            display: block;
+            text-align: center;
+        }
+        .Present{
+            background: url(assets/ion-checkmark-round.png) no-repeat;
+            background-size: 17px,21px,auto;
+            background-position: center;
+height: 21px; 
+        }
+        .Leave{
+            background: url(assets/L.png) no-repeat;
+            background-size: 12px,23px,auto;
+            background-position: center;
+height: 17px; 
+        }
+        .CompLeave{background: url(assets/C.png) no-repeat;
+            background-size: 17px,21px,auto;
+            background-position: center;
+height: 21px;
+ }
+.unmark{
+    background: url(assets/ion-alert.png) no-repeat;
+                background-size: 7px,10px,auto;
+            background-position: center;
+height: 17px; 
+}
+    </style>
+</head>
+
+<body ng-app="demo" ng-controller="calendarDemo">
+    <div class="calendar">
+        <calendar selected="day"></calendar>
+    </div>
+ <h3>Angular Modal Service</h3>
+     <a class="btn btn-default" href ng-click="show()">Show a Modal</a>
+     <p>{{message}}</p>
+    <script type="text/ng-template" id="modal.html">
+         <div class="modal fade">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" ng-click="close('Cancel')" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Yes or No?</h4>
+              </div>
+              <div class="modal-body">
+                <p>It's your call...</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" ng-click="close('No')" class="btn btn-default" data-dismiss="modal">No</button>
+                <button type="button" ng-click="close('Yes')" class="btn btn-primary" data-dismiss="modal">Yes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+     </script>
+</body>
+<script src="bower_components/hammerjs/hammer.js" charset="utf-8"></script>
+<script src="bower_components/angular/angular.js" charset="utf-8"></script>
+<script src="bower_components/angular-animate/angular-animate.js" charset="utf-8"></script>
+<script src="bower_components/angular-aria/angular-aria.js" charset="utf-8"></script>
+<script src="bower_components/angular-material/angular-material.js" charset="utf-8"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js" charset="utf-8"></script>
+<script src="bower_components/angular-resource/angular-resource.js" charset="utf-8"></script>
+<script src="bower_components/angular-messages/angular-messages.js" charset="utf-8"></script>
+<script src="bower_components/angular-sanitize/angular-sanitize.js" charset="utf-8"></script>
+<script src="bower_components/angular-toastr/dist/angular-toastr.tpls.js" charset="utf-8"></script>
+<script src="bower_components/satellizer/dist/satellizer.js" charset="utf-8"></script>
+<script src="bower_components/jquery/dist/jquery.js" charset="utf-8"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js" charset="utf-8"></script>
+<script src="bower_components/angular-material-icons/angular-material-icons.js" charset="utf-8"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.7.5/less.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.3/moment.min.js"></script>
+<script src="controller/calendar.js"></script>
+<script src="https://rawgit.com/dwmkerr/angular-modal-service/master/dst/angular-modal-service.js"></script>
+
+</html>

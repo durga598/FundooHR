@@ -1,6 +1,6 @@
-    body{
-      background: #D8D1C7;
-    }
+body.loginDiv{
+    background-color: rgba(216, 209, 199, 1) !important;
+}
     .md-padding{
         background-color: rgba(247, 245, 241, 0);
     }
@@ -8,7 +8,7 @@
 color: rgba(59, 83, 114, 1);
           font-family: AppleGothic;
           font-size: 28px;
-          background-color: rgba(247, 245, 241, 0.85);
+          background-color: #e1dedb !important;
             max-width: 300px;
             max-height: 291px;
             border-radius: 7px;
@@ -23,6 +23,7 @@ color: rgba(59, 83, 114, 1);
 }
             md-content{
                 border-radius: 7px;
+                background-color: #e1dedb !important;
             }
             toolbar{
                 font-family: AppleGothic;
@@ -45,4 +46,24 @@ color: rgba(59, 83, 114, 1);
 }
 select, button, textarea, input {
     font-size: 23px;
+}
+
+.toolBar{
+    height: 112px;
+}
+.toolBar img{
+
+    max-width: 43px;
+    max-height: 47px;
+
+}
+#logo{
+        margin-left: 10px;
+    margin-top: 5px;
+}
+#appName{
+    font-family: Ionicons;
+    font-size: 24px;
+    margin-left: 5px;
+    color: rgba(59, 83, 114, 1);
 }

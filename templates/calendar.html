@@ -1,15 +1,22 @@
 <div class="header">
+     <i class="fa fa-arrow-down" ng-click="previous()"></i>
     <span class="dateShow">{{month.format("MMMM, YYYY")}}</span>
     <i class="fa fa-arrow-down" ng-click="next()"></i>
 </div>
-<table class="table table-bordered">
+<input id="PastDateDemo" type="text" />
+ 
+<div id="popupContainer">
+    <table class="table table-bordered">
 <tbody>
 <tr class="week" ng-repeat="week in weeks">
-    <td class="day" ng-click="showModal(day)" ng-repeat="day in week.days"><span class="dayNum">{{day.number}}</span>
-    <div class="status"><span ng-if="!isAttend(day) && day.isCurrentMonth" class="unmark"></span>
+    <td class="day" ng-click="!day.enable||showAlert($event,day)" ng-repeat="day in week.days">
+        <span class="dayNum">{{day.number}}</span>
+    <div class="status">
 
-    <span ng-class="day.status.attendanceStatus"></span>
+    <span ng-class="checkAttend(day)"></span>
     </div></td>
 </tr>
 </tbody>
-        </table>
+        </table></div>
+
+        

@@ -132,11 +132,10 @@ scope.showAlert = function(ev,day) {
 			};
 			scope.checkAttend = function (day) {
 				var todayDate=moment();
-				console.log(day);
-				console.log(todayDate.diff(day.date));
+					console.log(todayDate.isBefore(day.date),day.date,todayDate);
 				
-				if(day.number>todayDate|| day.isCurrentMonth){
-					console.log("called up");
+				if(todayDate.isBefore(day.date)){
+					console.log("upcoming");
 					day.enable= false;
 					return "upcoming";
 				}
